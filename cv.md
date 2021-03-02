@@ -1,7 +1,7 @@
 ***Name and Surname:*** Luydmila Kolasava 
 
 *Contacts:* 
-* *tel:* +375 29 272-__-__ 
+* *tel:* +375 29 272-00-00 
 * *email:* kolasava.dev@yandex.by
 * *address:*  Dzerzhinsk, Belarus
 * *Marital status:* Single
@@ -17,8 +17,9 @@ Specialty: engineer for the automation of production processes and production.
 
 *Skills:* HTML, CSS, JS Basic, GIT.
 
-*Example code:* ```function getRandomArbitrary(min, max) {<br>
-  return Math.random() * (max - min) + min;<br>
+*Example code:* 
+```function getRandomArbitrary(min, max) { 
+  return Math.random() * (max - min) + min; 
 }```
 
 *Work experience:*
