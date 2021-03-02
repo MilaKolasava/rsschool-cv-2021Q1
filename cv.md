@@ -22,7 +22,7 @@ Specialty: engineer for the automation of production processes and production.
 
 *Skills:*
 * Belarusian – Native
-* English - B1 - Intermediate
+* English - B2 - Intermediate
 * Russian - C2 - Perfect
 
 *Personal qualities:*
