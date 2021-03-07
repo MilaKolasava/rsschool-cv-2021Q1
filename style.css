@@ -1,9 +1,10 @@
 body {
    background: #b5a789 url(images/background.gif);
    font-family: Georgia, "Time New Roman", Times, serif;
-   font-size: small;
+   font-size: medium;
    margin-left: 18%;
 margin-right: 18%;
+
 }
 
 h1, h2 {
@@ -13,8 +14,7 @@ h1, h2 {
 
 nav {
    color: #954b4b;
-   background-color: #c9a8a8 ;
-   margin: 10px 10px 0px 10px;
+      margin: 10px 10px 0px 10px;
    
 }
 nav ul {
@@ -39,6 +39,8 @@ nav ul {
 
       footer {
          display: inline;
+         color: #954b4b;
+         background-color: #c9a8a8 ;
       }
       div.tableRow {
          display: table-row;
@@ -51,4 +53,8 @@ nav ul {
          div.tableRow p:first-child {
          text-align: right;
          }
-      
+         th {
+            padding: 15px 15px 0px 15px;
+         }
+         
+        
