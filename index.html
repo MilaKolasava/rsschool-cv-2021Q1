@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=, initial-scale=1.0">
    <title>Document</title>
+   <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <header>
    <h1>Сurriculum vitae</h1>
@@ -12,20 +13,24 @@
 <body>
    <nav>
       <ul>
-         <li>Contacts</li>
-         <li>Objective</li>
-         <li>Education</li>
-         <li>Skills</li>
-         <li>Example code</li>
-         <li>Work experience</li>
-         <li>Language skills</li>
-         <li>Personal qualities</li>
+         <li><a href='#contact'>Contacts</a></li>
+         <li><a href='#purpose'>Objective</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href='#skill'>Skills</a></li>
+         <li><a href='#example'>Example code</a></li>
+         <li><a href='#experiens'>Work experience</a></li>
+         <li><a href="#language">Language skills</a></li>
+         <li><a href='#qualities'>Personal qualities</a></li>
       </ul>
    </nav>
-   <img src="images/паспорт.jpg" alt="My photo"/>
-
+   <img src="images/паспорт.jpg" alt="My photo" width="200" height="250"/>
+   
 <section>
-   <h2>Contacts:</h2>
+   <div class="tableRow"> 
+      <p>
+   <h2 id=contact>Contacts:</h2>
+   </p>
+   <p>
       <ul>
          <li>tel: +375 29 000-00-00</li>
          <li>email: kolasava.dev@yandex.by</li>
@@ -34,42 +39,51 @@
          <li>date of birth: 18th  April</li>
          <li>nationality: Belarus</li>
    </ul>
+</p>
+</div>
 </section>
 
 <article>
-   <h2>Objective:</h2>
+   <h2 id='purpose'>Objective:</h2>
    <p>Extremely motivated for career change goal.</p>
 </article>
 
 <section>
-   <h2>Education:</h2>
+   <h2 id='education'>Education:</h2>
    <div>
-      <strong>2007-2012</strong> - <a href=http://www.belstu.by>Belarusian State Technological University.</a> 
-      <p><em>Faculty:</em> Chemical Technology and Engineering,</p>
-      <p><em>Department:</em>Automation of Production Processes and Electrical Engineering,</p>
-      <p><em>Specialty:</em>engineer for the automation of production processes and production.</p>
+      <strong>2007-2012</strong> - <a href=http://www.belstu.by>Belarusian State Technological University.</a> </br>
+      <em>Faculty:</em> Chemical Technology and Engineering,</br>
+      <em>Department:</em>Automation of Production Processes and Electrical Engineering,</br>
+      <em>Specialty:</em>engineer for the automation of production processes and production.
    </div>
 </section>
 
 <section>
-   <h2>Skills:</h2>
-   <p>HTML, CSS, JS Basic, GIT.</p>
+   <h2 id='skill'>Skills:</h2>
+   <ul>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>JS Basic</li>
+   <li>GIT</li>
+   </ul>
 </section>
 
 <article>
-   <h2>Example code:</h2>
+   <h2 id='example'>Example code:</h2>
    <a href='https://milakolasava.github.io/rsschool-cv/'>My curriculum vitae</a>
 </article>
 
 <section>
-   <h2>Work experience:</h2>
-   <p><em>08.2012 - 07.2014</em> The Joint Stock Company "The Grodno Scientific-Research and Design Institute for Nitrogen Industry and Organic Synthesis Products". Design engineer in the estimate department </p>
-<p><em>10.2014 - 09.2016</em>  Foreign unitary enterprise "Pentatronic".Sales Manager</p>
-      <p><em>10.2016 – present</em> Digamma Limited Liability Company. Engineer</p> 
+   <h2 id='experience'>Work experience:</h2>
+   <div>
+   <em>08.2012 - 07.2014</em> The Joint Stock Company "The Grodno Scientific-Research and Design Institute for Nitrogen Industry and Organic Synthesis Products". Design engineer in the estimate department </br>
+<em>10.2014 - 09.2016</em>  Foreign unitary enterprise "Pentatronic".Sales Manager</br>
+      <em>10.2016 – present</em> Digamma Limited Liability Company. Engineer
+      </div>
 </section>
 
 <section>
-   <h2>Language skills:</h2>
+   <h2 id='language'>Language skills:</h2>
 <ul>
    <li>Belarusian – Native</li>
    <li>English - B2 - Intermediate</li>
@@ -78,20 +92,22 @@
    </section>
 
    <section>
-      <h2>Personal qualities:</h2>
+      <h2 id="qualities">Personal qualities:</h2>
       <div>
          Responsibility, dedication, high efficiency, reliability, desire to develop, easily adapt to new information systems, ability to work in a team. <br/> Lead a healthy lifestyle.
       </div>
    </section>
 </body>
 <footer>
-   <p>
-      by Luydmila Kolasava
-  </p>
+   
   <p>
       Email: kolasava.dev@yandex.by
   </p>
-  <time datetime="2021-03-05">05 march 2021</time>
+  <time datetime="2021">march 2021</time>
+  <span>
+  <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="RSSchool" width="80" height="85"></a>
+  <a href="https://github.com/MilaKolasava"><img src="images/GitHub-Mark-32px.png" alt="My github"></a>
+</span>
 </footer>
 
 </html>
